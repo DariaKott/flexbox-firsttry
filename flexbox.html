@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border: 1px solid grey;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            background-color: lightgrey;
+            justify-content: center;
+            height: 10vh;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            height: 80vh
+        }
+
+        .mainblock {
+            display: flex;
+            background-color: lightyellow;
+            flex-grow: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .flexcontainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #section-ad3 {
+            width: 100%;
+        }
+
+        .section-ad {
+            background-color: lightcoral;
+            flex-direction: row;
+            margin: 10px;
+            flex-grow: 1;
+
+        }
+
+
+        aside {
+            background-color: lightgreen;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: lightgrey;
+            height: 10vh;
+            justify-content: space-between;
+        }
+
+        .footersec {
+            margin: 10px;
+            background-color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        [Шапка страницы]
+    </header>
+    <main>
+        <div class="mainblock">
+            <section class="section-main">[Основная часть]</section>
+            <div class="flexcontainer">
+                <section class="section-ad">[Еще 1]</section>
+                <section class="section-ad">[Еще 2]</section>
+                <section class="section-ad" id="section-ad3">[Еще 3]</section>
+            </div>
+        </div>
+        <aside>[Боковая область]</aside>
+    </main>
+    <footer class="footer">
+        <section class="footersec">[Секция футера 1]</section>
+        <section class="footersec">[Секция футера 2]</section>
+        <section class="footersec">[Секция футера 3]</section>
+        <section class="footersec">[Секция футера 4]</section>
+    </footer>
+</body>
+
+</html>
