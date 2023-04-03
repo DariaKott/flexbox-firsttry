@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <style>
+        .specialline {
+            display: flex;
+            background-color: #50735F;
+            width: 100vw;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .background-header {
+            background-image: url(/images/photoheader.png);
+            height: 700px;
+            width: 100vw;
+            padding-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul.nav-menu {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            align-items: center;
+            padding-left: 10px;
+            justify-content: space-between;
+        }
+
+        nav li {
+            margin-left: 12px;
+        }
+
+        .navline {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+            flex-wrap: wrap;
+        }
+
+        #logo {
+            margin: 0;
+            padding-left: 15px, 15px, 0, 15px;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 64px;
+            color: white;
+        }
+
+        #about {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+
+        .button {
+            border-radius: 80px;
+            width: 169px;
+            height: 50px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            cursor: pointer;
+        }
+
+        #shopbutton {
+            background-color: #C58A46;
+            color: white;
+            border: 0;
+        }
+
+        .firstblock {
+            display: flex;
+            flex-direction: column;
+            align-items: last baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="specialline">
+            <a class="link" href="action.html">Get 25% off buying the entire capsule collection | Subscribe to us and
+                get 15% off your
+                first order
+            </a>
+        </div>
+        <div class="background-header">
+            <div class="navline">
+                <object id="logo" data="/images/logo.svg" type="image/svg+xml"></object>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a class="menu" href="shop.html">Shop+</a></li>
+                        <li><a class="menu" href="team.html">Our team</a></li>
+                        <li><a class="menu" href="impact.html">Our impact</a></li>
+                        <li><a class="menu" href="card.html">Gift card</a></li>
+                        <li><a class="menu" href="faq.html">FAQ</a></li>
+                        <li><a class="menu" href="journal.html">Journal</a></li>
+                        <li><a class="menu" href="contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+                <a class="searchlink" href="search.html">Search</a>
+            </div>
+            <div class="firstblock">
+                <h1>Little Clothes.<br>Big Impackt.</h1>
+                <p id="about" class="textblock">High-quality children's clothing, crafted with <br> from sustainable
+                    materials that are
+                    kind<br> to the
+                    planet. These timeless styles are the <br>perfect companions for your little adventurer,<br>
+                    wherever
+                    their
+                    imagination takes them.</p>
+                <button class="button" id="shopbutton">SHOP NOW</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <img id="leafpic" src="/images/welcomeleaf.png" alt="leaf">
+        <img id="boypic" src="/images/welcomepic-boy.png" alt="photo">
+        <section1>
+            <div class="firstblock">Welcome</div>
+            <h2 class="firstblock">Hi, meet <br> TreeHouse.</h2>
+            <div class="firstblock" class="textblock">Mindfully crafted gender-neutral <br> children's clothing focused
+                on your little <br>
+                one
+                and designed with
+                great care for our <br> planet and the people on it.</div>
+            <button class="button" id="firstblock-button">READ MORE</button>
+        </section1>
+    </main>
+    <footer class="footer">
+        <div class="uppertext">SUBSCRIBE to our mailing list and get 15% off your first order</div>
+        <input type="text" id="subscribe" placeholder="Enter your e-mail"> <button id="subscribebutton">I'm in</button>
+        <br>
+        <object data="/images/logo.svg" type="image/svg+xml">объект не отображается</object>
+        <div>Tree House 2023 © All Rights reserved</div>
+
+    </footer>
+
+</body>
+
+</html>
